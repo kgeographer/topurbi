@@ -16,12 +16,11 @@ Antonio de Alcedo's *Diccionario geográfico-histórico de las Indias Occidental
 Carmen Brando, technical lead). The source is Werner's TEI digital edition (5 volumes), now
 complete. The data carries a **CC BY-NC 4.0** licence, with ANR requiring attribution at the record
 level: *"ANR TopUrbi — Topographie de l'urbanisation impériale hispanique
-(Projet-ANR-21-CE27-0023)"*. I want to flag the NC clause upfront — I assume it's compatible with
-WHG's terms but worth confirming with Carmen.
+(Projet-ANR-21-CE27-0023)"*. 
 
 ## What I've prepared
 
-Starting from the TEI-encoded volumes and Werner's structured CSV, I've built a pipeline that
+Starting from the TEI-encoded volumes and Werner's structured CSV, I built a pipeline that
 produces a Postgres table (`alcedo_candidates`) with LP-TSV column names and 17,467 rows ready for
 export. Here's the field-by-field picture:
 
@@ -41,15 +40,15 @@ export. Here's the field-by-field picture:
 
 ### fclasses distribution
 
-| fclass | n | GeoNames category |
-|---|---|---|
-| P | 9,406 | Populated places |
-| H | 4,546 | Hydrographic features |
-| T | 2,181 | Landforms |
+| fclass | n | GeoNames category        |
+|---|---|--------------------------|
+| P | 9,406 | Populated places         |
+| H | 4,546 | Hydrographic features    |
+| T | 2,181 | Landforms                |
 | A | 661 | Administrative divisions |
-| L | 511 | Regions, human groups |
-| S | 160 | Structures |
-| R | 2 | Routes |
+| L | 511 | Regions, human groups    |
+| S | 160 | Sites/Structures         |
+| R | 2 | Routes                   |
 
 ### Location confidence
 
@@ -58,28 +57,26 @@ automatically geocoded). The remaining **8,780 carry dummy or provincial centroi
 Werner's team placed these at a province centroid when the specific location was unknown.
 All unlocated records have an `approximation` value of `geo:sfWithin` in the LP-TSV to flag this.
 
-## The links question — and why it matters
-
-This is where I need your input, Stephen.
+## Links
 
 The dataset has external match IDs for **7,218 records** sourced from Werner's *HGIS de las
-Indias* — which, as you know, is already in WHG and has been reconciled. These are:
+Indias* — which is already in WHG in two datasets (_lugares_ and _territorios_) and has been reconciled. These are:
 
 - **6,863 numeric IDs** → lugares (settlements, structures, natural features)
 - **355 alphanumeric IDs** → territorios (administrative districts)
 
 Those 6,688 that are in my candidate set represent direct bridges from Alcedo records to
 already-reconciled WHG entries, and by extension to their Wikidata and GeoNames links — a
-significant semi-automatic reconciliation win. They are expressed as `indias:` aliases in the
-LP-TSV `links` field. The other 181 records have GeoNames (177) or Getty-TGN (4) matches.
+significant semi-automatic reconciliation win(?). They are expressed as `indias:` aliases in the
+LP-TSV `links` field. The other 181 records have GeoNames (gn:, 177) or Getty-TGN (tgn:, 4) matches.
 
 ## The description field
 
 Werner produced TEI-annotated transcriptions of all five volumes. I've extracted the plain Spanish
 entry text for all 17,467 candidates — average 294 characters, ranging from a single sentence
 ("Pueblo de la Isla de Cuba.") to full historical essays for major entries like *Peru* (~54k chars).
-This is the same layer your GoW pipeline extracts from OCR; here it comes pre-structured and
-TEI-encoded.
+This seems to correspond to your GoW pipeline extracts from OCR; here it comes pre-structured and
+TEI-encoded, albeit Spanish.
 
 If WHG's `description` field has a length preference, I can truncate to first sentence or a char
 limit at export time without losing anything — full text is stored in the DB.
@@ -88,20 +85,19 @@ limit at export time without losing anything — full text is stored in the DB.
 
 I've been following the Gazetteer of the World work with great interest. Alcedo is structurally
 the same class of source — an 18th-century descriptive gazetteer of a specific world region — but
-arrives pre-processed: structured, geocoded (partially), TEI-annotated, and linked to HGIS. It
+arrives pre-processed: structured, geocoded (partially), TEI-annotated, and linked to Indias. It 
 could be a useful test case or validation set for the OCR/LLM pipeline, and/or a candidate for
-the same standalone-app treatment you've given GoW. I'm not pushing any particular pathway — 
-I'd rather understand what would be most useful to you and the ISHI team and fit accordingly.
+the same standalone-app treatment you've given GoW. I know Carmen and Werner would love to see 
+this published in WHG - I'm not clear whether this would require the old reconciliation pathway.
 
-## Open questions for you
+## Open questions
 
-1. **CC BY-NC 4.0 compatibility** — is this a problem for WHG?
-2. **Record-level attribution** — can the ANR citation string be carried as a dataset-level note,
-   or does it need to appear on each record?
+1. **CC BY-NC 4.0 compatibility**
+2. **Record-level attribution** assuming what appears on place portal pages and in dataset pub pages is adequate
 3. **Description length** — I've truncated to ~500 chars (sentence boundary) for the sample;
    happy to adjust or send full text if you prefer.
 4. **Pathway** — LP-TSV ingest into main WHG, GoW-style standalone treatment, or both?
-   I have a 500-record sample LP-TSV ready to upload whenever you say go.
+   I uploaded a 500-record sample LP-TSV you can check out.
 
 Happy to jump on a call, share the data directly, or answer any questions here.
 
