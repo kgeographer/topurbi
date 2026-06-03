@@ -11,6 +11,11 @@ Karl Grossner (this user) built [World Historical Gazetteer (WHG)](https://whgaz
 seven years and is now facilitating the accession of Alcedo into WHG. The original repo files are
 untouched; all of Karl's work lives in the `whg/` folder.
 
+**Karl's GitHub repo** (his work only, no TopUrbi source files):
+https://github.com/kgeographer/topurbi
+- Local remote name: `github`
+- Push new work: `git push github lptsv:main`
+
 **License:** CC BY-NC 4.0. The NC restriction needs to be confirmed as compatible with WHG.
 ANR requires citation at record level: "ANR TopUrbi — Topographie de l'urbanisation impériale
 hispanique (Projet-ANR-21-CE27-0023)".
