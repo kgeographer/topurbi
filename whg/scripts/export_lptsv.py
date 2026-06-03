@@ -68,7 +68,7 @@ def truncate_desc(text, limit=500):
     return (cut[:dot + 1] if dot > limit // 2 else cut) + "..."
 
 
-def row_to_tsv(row):
+def row_to_tsv(row, truncate=False):
     return [
         row["id"],
         row["title"],
@@ -83,17 +83,17 @@ def row_to_tsv(row):
         row["start"]       if row["start"] is not None else "",
         row["end"]         if row["end"]   is not None else "",
         row["links"]       or "",
-        truncate_desc(row["description"]),
+        truncate_desc(row["description"]) if truncate else (row["description"] or ""),
         row["approximation"] or "",
     ]
 
 
-def write_lptsv(rows, outpath):
+def write_lptsv(rows, outpath, truncate=False):
     with open(outpath, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f, delimiter="\t", quoting=csv.QUOTE_MINIMAL)
         w.writerow(COLUMNS)
         for row in rows:
-            w.writerow(row_to_tsv(row))
+            w.writerow(row_to_tsv(row, truncate=truncate))
 
 
 def summarise(rows, label):
@@ -134,12 +134,12 @@ def main():
         rows = conn.execute(QUERY_SAMPLE,
                             {"located": list(LOCATED),
                              "limit": args.sample}).fetchall()
+        write_lptsv(rows, outpath, truncate=True)
     else:
         outpath = OUT_DIR / f"alcedo_lptsv.tsv"
         print("Querying full candidate set ...")
         rows = conn.execute(QUERY_FULL).fetchall()
-
-    write_lptsv(rows, outpath)
+        write_lptsv(rows, outpath, truncate=False)
     summarise(rows, outpath.name)
     print(f"\nWrote → {outpath}")
 
