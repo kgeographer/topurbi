@@ -1,0 +1,34 @@
+Hi Karl,
+
+Thank you, glad to hear from you — I hope things are well to you and yours too!
+
+Werner has now completed the work on the Alcedo dictionary within the TopUrbi project, covering both the TEI digital edition and the historical place gazetteer.
+Jean-Paul Zuñiga (TopUrbi's PI) and Werner have both been in touch with Gimena del Rio on this.
+One key difference from Gimena's original approach is that we chose to work from the original Spanish edition, whereas Gimena mentioned she had started with an English translation.
+Starting from the Spanish meant essentially beginning from scratch, which took up Werner's full two-year contract within TopUrbi.
+
+Please note that the repository you found is no longer active and the data there is outdated. The current resources — scripts, data, TEI Publisher app (still in progress), and bibliographic references — are in our main repository: https://gitlab.huma-num.fr/plateforme-geomatique-et-hn/topurbi-project (the second part of the README is in English)
+
+The most up-to-date gazetteer data is in the TEI index here:
+https://gitlab.huma-num.fr/plateforme-geomatique-et-hn/topurbi-data/-/tree/main/auxiliary?ref_type=heads
+
+On the question of data sharing: TopUrbi was funded by the French National Research Agency (ANR), which requires us to make our data FAIR.
+We chose an open licence with a non-commercial restriction — CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/). Would this be compatible with WHG's requirements?
+
+We are also required to systematically cite the project by its full name and code: ANR TopUrbi — Topographie de l'urbanisation impériale hispanique (Projet-ANR-21-CE27-0023). Ideally, I would like this attribution to appear at the record level in WHG — is that something that could be arranged?
+
+Contributing our gazetteer to WHG has been part of my plan from the beginning. I was hoping to convert the data to the WHG format, but since Werner's departure I've had to take care of several things we hadn't finished. We are currently working with JINNTEC to customise and improve the TEI Publisher site for the dictionary.
+
+If you have a workflow to facilitate the conversion to the WHG data model, that would be a great help.
+
+Werner mentioned that you both previously imported the HGIS de las Indias into WHG — I would like to do the same for the TopUrbi gazetteer, which is geolocated and linked to Werner's HGIS (and Geonames). We would prefer to have it as a separate dataset in WHG (keeping of course links to HGIS).
+
+As you can imagine, many places in Alcedo have not yet been geolocated. We have set up a web interface to allow experts to contribute, but as with all projects of this kind, it is an ongoing effort.
+
+Looking forward to hearing your thoughts!
+
+Sorry for the long mail, I will be more available in April to discuss if you like, especially to discuss a plan to convert the data and check output.
+
+best,
+Carmen
+PS : My EHESS address has problems today, this is why I use my gmail address..

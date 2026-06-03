@@ -1,0 +1,20 @@
+Alcedo featuretype → WHG fclass audit
+Source: /Users/karlg/Documents/Repos/_topurbi/UpdateDataWorkflow/csv/Alcedo_structured.csv
+──────────────────────────────────────────────────
+Total rows:            19305
+
+── Row counts by disposition ───────────────────
+  exclude        936
+  include      17963
+  unmapped       406
+
+── Included rows by fclass ─────────────────────
+  A  Administrative             666
+  H  Water body                4544
+  L  Landscape / region         498
+  P  Populated place           9903
+  R  Road / route                 2
+  S  Site / structure           168
+  T  Terrestrial landform      2182
+
+── Unmapped featuretype values (need adding to FCLASS dict) ──

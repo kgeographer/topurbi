@@ -1,0 +1,61 @@
+Alcedo Nation / prov-group → WHG ccode audit
+Source: /Users/karlg/Documents/Repos/_topurbi/UpdateDataWorkflow/csv/Alcedo_structured.csv
+──────────────────────────────────────────────────
+Total rows:                19305
+  ccode resolved:          17965
+  ccode unresolved:         1340
+
+── Resolved by ccode ───────────────────────────
+  AR                  308
+  AR;BO;PY             30
+  AR;CL                97
+  AR;UY               272
+  BO                  622
+  BR                 1409
+  CA                   20
+  CL                  801
+  CL;AR                88
+  CO                 1312
+  CO;VE               138
+  CU                    4
+  CU;DO;HT;PR;JM      348
+  DK                    1
+  DO;HT                22
+  EC                  624
+  FR                  527
+  GB                 1248
+  GF                    4
+  GT                  169
+  HN                   70
+  JM;BB;GD              2
+  MQ;GP                 2
+  MX                 3423
+  MX;GT                89
+  MX;US                47
+  NI;CR                99
+  NL                  121
+  PA;CO               357
+  PE                 1967
+  PE;BO                97
+  PE;EC               343
+  PT                   53
+  PY                  351
+  SR                    1
+  US                 1647
+  US;MX                92
+  VE                  831
+  VE;GY;SR;GF         329
+
+── Unresolved (Nation / prov-group combos) ─────
+  -               -                                1278
+  -               Polinesia                          13
+  Ambiguous       Middleground                       10
+  Ambiguous       Subarctis                           1
+  Spain           -                                   3
+  Spain           Middleground                        1
+  Spain           unknown                             1
+  unknown         -                                   3
+  unknown         Middleground                        8
+  unknown         unknown                            11
+  nan             Brasil                              1
+  nan             nan                                10

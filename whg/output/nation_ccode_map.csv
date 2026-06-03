@@ -1,0 +1,113 @@
+Nation,prov-group,ccode,count
+-,-,,1278
+-,Polinesia,,13
+Ambiguous,Luisiana,US,55
+Ambiguous,Canada,CA,20
+Ambiguous,Cumana,VE,12
+Ambiguous,Middleground,,10
+Ambiguous,Cayenne,GF,4
+Ambiguous,Caribe,CU;DO;HT;PR;JM,1
+Ambiguous,Coahuila-Texas,MX;US,1
+Ambiguous,Florida,US,1
+Ambiguous,Subarctis,,1
+Brasil,Brasil,BR,1081
+Brasil,Grao Para,BR,204
+Brasil,Brasil-unspecified,BR,124
+Britain,Canada,GB,618
+Britain,British Caribbean,GB,394
+Britain,Subarctis,GB,228
+Britain,Middleground,GB,6
+Britain,Bahamas,GB,1
+Britain,Polinesia,GB,1
+Denmark,Danish Caribbean,DK,1
+France,French Caribbean,FR,233
+France,Saint-Domingue,FR,188
+France,Cayenne,FR,99
+France,British Caribbean,FR,6
+France,Santo Domingo,FR,1
+Netherlands,Surinam,NL,101
+Netherlands,Dutch Caribbean,NL,16
+Netherlands,Amazonas,NL,1
+Netherlands,Bervice,NL,1
+Netherlands,British Caribbean,NL,1
+Netherlands,unspecified,NL,1
+Portugal,Brasil,PT,34
+Portugal,Grao Para,PT,19
+Spain,Peru norte,PE,1112
+Spain,Peru sur,PE,843
+Spain,Chile,CL,796
+Spain,Mexico,MX,752
+Spain,Quito,EC,624
+Spain,Puebla,MX,603
+Spain,Oaxaca,MX,561
+Spain,Nuevo Reyno de Granada,CO,524
+Spain,Charcas,BO,508
+Spain,Michoacan,MX,404
+Spain,Nueva Galicia,MX,357
+Spain,Tierra Firme,PA;CO,357
+Spain,Paraguay,PY,351
+Spain,Caribe,CU;DO;HT;PR;JM,347
+Spain,Maynas,PE;EC,343
+Spain,Venezuela,VE,337
+Spain,Guayana,VE;GY;SR;GF,323
+Spain,Sinaloa-Sonora,MX,321
+Spain,Tucuman,AR,308
+Spain,Cumana,VE,279
+Spain,Rio de la Plata,AR;UY,272
+Spain,Popayan,CO,255
+Spain,Cartagena,CO,229
+Spain,Maracaibo,VE,183
+Spain,Nueva Vizcaya,MX,172
+Spain,Guatemala,GT,169
+Spain,Santa Marta,CO,157
+Spain,Llanos,CO;VE,138
+Spain,Santa Cruz de la Sierra,BO,114
+Spain,Luisiana,US,106
+Spain,Nicaragua-Costa Rica,NI;CR,99
+Spain,Chiapas,MX,97
+Spain,Collao,PE;BO,97
+Spain,California,MX,95
+Spain,Nuevo Mexico,US;MX,91
+Spain,Yucatan-Peten,MX;GT,89
+Spain,Araucanos,CL;AR,88
+Spain,Honduras,HN,70
+Spain,Antioquia,CO,67
+Spain,Florida,US,67
+Spain,Patagonia,AR;CL,61
+Spain,Choco,CO,60
+Spain,Nuevo Leon-Santander,MX,55
+Spain,Coahuila-Texas,MX;US,46
+Spain,Cuyo,AR;CL,36
+Spain,Chaco,AR;BO;PY,30
+Spain,Santo Domingo,DO;HT,22
+Spain,Isla Margarita,VE,20
+Spain,Neiva,CO,16
+Spain,Ocopa,PE,12
+Spain,Nueva España,MX,6
+Spain,Chiloe,CL,5
+Spain,Cuba,CU,4
+Spain,-,,3
+Spain,British Caribbean,JM;BB;GD,2
+Spain,French Caribbean,MQ;GP,2
+Spain,Nuevo Reino de Granada,CO,2
+Spain,Georgia-Carolinas,US,1
+Spain,Mariquita,CO,1
+Spain,Middleground,,1
+Spain,Nuevo México,US;MX,1
+Spain,Surinam,SR,1
+Spain,Tunja,CO,1
+Spain,unknown,,1
+USA,Georgia-Carolinas,US,415
+USA,New England,US,380
+USA,Chesapeake,US,280
+USA,Mid Atlantic,US,279
+USA,Middleground,US,58
+USA,Canada,US,3
+USA,Honduras,US,1
+unknown,unknown,,11
+unknown,Middleground,,8
+unknown,Guayana,VE;GY;SR;GF,6
+unknown,-,,3
+unknown,Luisiana,US,1
+,,,10
+,Brasil,,1

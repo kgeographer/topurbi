@@ -1,0 +1,222 @@
+featuretype,count,fclass,fclass_label,status
+Pueblo,7628,P,Populated place,include
+Rio,3561,H,Water body,include
+Isla,752,T,Terrestrial landform,include
+Ciudad,601,P,Populated place,include
+Nación,492,L,Landscape / region,include
+,406,,,include
+Pueblo Cabecera,378,P,Populated place,include
+Provincia,343,A,Administrative,include
+Punta,329,T,Terrestrial landform,include
+Puerto,320,P,Populated place,include
+Bahía,278,H,Water body,include
+Pueblo de Indios,271,P,Populated place,include
+Villa,262,P,Populated place,include
+-,250,,,include
+Laguna,218,H,Water body,include
+Cabo,196,T,Terrestrial landform,include
+Monte,170,T,Terrestrial landform,include
+Animal,156,,,include
+Botany,150,,,include
+Islas,120,T,Terrestrial landform,include
+Condado,118,A,Administrative,include
+Fuerte,115,S,Site / structure,include
+Ensenada,108,H,Water body,include
+Valle,103,T,Terrestrial landform,include
+Barrio,80,P,Populated place,include
+Jurisdicción,66,A,Administrative,include
+Nutriment,66,,,include
+Lago,65,H,Water body,include
+Pueblo Real de Minas,64,P,Populated place,include
+Pueblo Parroquia,61,P,Populated place,include
+Islote,61,T,Terrestrial landform,include
+Capital,53,P,Populated place,include
+Baxo,51,H,Water body,include
+Islotes,48,T,Terrestrial landform,include
+Partido,45,A,Administrative,include
+Montañas,44,T,Terrestrial landform,include
+Social,43,,,include
+Pharmacy,39,,,include
+Pueblo Asiento de Minas,38,P,Populated place,include
+Produce,37,,,include
+Alcaldía mayor,36,A,Administrative,include
+Brazo,36,H,Water body,include
+placename,35,,,include
+Punta de tierra,31,T,Terrestrial landform,include
+Isleta,30,T,Terrestrial landform,include
+Textiles,29,,,include
+Pueblo Capital,28,P,Populated place,include
+Extremidad,28,T,Terrestrial landform,include
+Llanura,28,T,Terrestrial landform,include
+Cerro,27,T,Terrestrial landform,include
+Estrecho,26,H,Water body,include
+Cordillera,25,T,Terrestrial landform,include
+Sierra,23,T,Terrestrial landform,include
+Montaña,22,T,Terrestrial landform,include
+Volcán,20,T,Terrestrial landform,include
+País,20,A,Administrative,include
+Pueblo Presidio,19,P,Populated place,include
+Aldea,19,P,Populated place,include
+Baxos,19,H,Water body,include
+Canal,19,H,Water body,include
+Banco,18,H,Water body,include
+Fortaleza,17,S,Site / structure,include
+Lagunas,16,H,Water body,include
+Reyno,16,A,Administrative,include
+Construction,16,,,include
+Mineralogy,15,,,include
+Montes,14,T,Terrestrial landform,include
+Golfo,14,H,Water body,include
+Territorio,14,A,Administrative,include
+Salto,13,H,Water body,include
+Landmark,13,,,include
+Synonym,13,,,include
+Caleta,12,H,Water body,include
+Mina,10,S,Site / structure,include
+Mar,10,H,Water body,include
+Peñasco,9,T,Terrestrial landform,include
+Ciudad Capital,9,P,Populated place,include
+Illness,9,,,include
+Bancos,8,H,Water body,include
+Sitio,8,,,include
+Angostura,8,H,Water body,include
+Sinonimo,8,,,include
+Pedazo,7,,,include
+Cayo,7,T,Terrestrial landform,include
+Entrada,7,H,Water body,include
+Páramo,7,T,Terrestrial landform,include
+Farallón,6,T,Terrestrial landform,include
+Promontorio,6,T,Terrestrial landform,include
+Pueblo Fuerte,6,P,Populated place,include
+Sierras,6,T,Terrestrial landform,include
+Rios,6,H,Water body,include
+Measurement,6,,,include
+Activity,6,,,include
+Parte,5,,,include
+Cadena de montañas,5,T,Terrestrial landform,include
+Playón,5,T,Terrestrial landform,include
+Estero,5,H,Water body,include
+Colonia,5,P,Populated place,include
+Boca,5,H,Water body,include
+Playa,5,T,Terrestrial landform,include
+Minas,5,S,Site / structure,include
+Real de minas,5,S,Site / structure,include
+Climate,5,,,include
+Población,4,P,Populated place,include
+Villa Presidio,4,P,Populated place,include
+Pueblo Reducción,4,P,Populated place,include
+Caño,4,H,Water body,include
+Castillo,4,S,Site / structure,include
+Llanuras,4,T,Terrestrial landform,include
+Despoblado,4,,,include
+Río,4,H,Water body,include
+Parage,4,,,include
+Villa Capital,4,P,Populated place,include
+Pueblo Establecimiento,3,P,Populated place,include
+Ciénega,3,H,Water body,include
+Desierto,3,L,Landscape / region,include
+Cerros,3,T,Terrestrial landform,include
+Llano,3,T,Terrestrial landform,include
+Isletas,3,T,Terrestrial landform,include
+Establecimiento,3,P,Populated place,include
+Pueblo Aldea,3,P,Populated place,include
+Barra,3,H,Water body,include
+Paso,3,T,Terrestrial landform,include
+Península,3,T,Terrestrial landform,include
+Cueva,3,T,Terrestrial landform,include
+Cantón,3,A,Administrative,include
+Pueblo Puerto,3,P,Populated place,include
+Remolino,3,H,Water body,include
+Pueblos,3,P,Populated place,include
+Peña,3,T,Terrestrial landform,include
+Fuente,3,H,Water body,include
+Peñascos,3,T,Terrestrial landform,include
+Santuario,3,S,Site / structure,include
+Structure,3,,,include
+Villa Cabecera,3,P,Populated place,include
+Ciudad Cabecera,2,P,Populated place,include
+Estanque,2,H,Water body,include
+Ciudad Bahía,2,P,Populated place,include
+Rada,2,H,Water body,include
+Presidio,2,P,Populated place,include
+Ciudad Puerto,2,P,Populated place,include
+Estrechura,2,H,Water body,include
+Lengua de tierra,2,T,Terrestrial landform,include
+Villa Real de Minas,2,P,Populated place,include
+Abertura,2,H,Water body,include
+Cayos,2,T,Terrestrial landform,include
+Villa Puerto,2,P,Populated place,include
+Cabeza,2,,,include
+Distrito,2,A,Administrative,include
+Bosque,2,T,Terrestrial landform,include
+Institution,2,,,include
+Settlement,2,P,Populated place,include
+Manantiales,1,H,Water body,include
+Potreros,1,T,Terrestrial landform,include
+Médanos,1,T,Terrestrial landform,include
+Pasage,1,,,include
+Ciudad Condado,1,P,Populated place,include
+Asiento de Minas,1,P,Populated place,include
+Parte del mundo,1,A,Administrative,include
+Ensenadas,1,H,Water body,include
+Fuerte Presidio,1,S,Site / structure,include
+Arroyo,1,H,Water body,include
+Raudal,1,H,Water body,include
+Cordilleras,1,T,Terrestrial landform,include
+Abra,1,T,Terrestrial landform,include
+Placer de arena,1,T,Terrestrial landform,include
+Asiento,1,P,Populated place,include
+Punta de Tierra,1,T,Terrestrial landform,include
+Pántano,1,H,Water body,include
+Cruz,1,S,Site / structure,include
+Vado,1,H,Water body,include
+Puente,1,R,Road / route,include
+Salinas,1,H,Water body,include
+Habitación,1,S,Site / structure,include
+Valles,1,T,Terrestrial landform,include
+Tribu,1,L,Landscape / region,include
+Terreno,1,T,Terrestrial landform,include
+Altos,1,T,Terrestrial landform,include
+República,1,A,Administrative,include
+Curato,1,P,Populated place,include
+Fila de peñas,1,T,Terrestrial landform,include
+Aguaje,1,H,Water body,include
+Pueblo Misión,1,P,Populated place,include
+Istmo,1,T,Terrestrial landform,include
+Nueva tierra,1,T,Terrestrial landform,include
+Cascada,1,H,Water body,include
+Atalaya,1,T,Terrestrial landform,include
+Brazos,1,H,Water body,include
+Selva,1,L,Landscape / region,include
+Seno,1,H,Water body,include
+Camino,1,R,Road / route,include
+Casta,1,,,include
+Morro,1,T,Terrestrial landform,include
+Confluente,1,H,Water body,include
+Feudo,1,A,Administrative,include
+Pueblo Fortaleza,1,P,Populated place,include
+Torreón,1,S,Site / structure,include
+Hermita,1,S,Site / structure,include
+Colegio,1,S,Site / structure,include
+Ciudad Presidio,1,P,Populated place,include
+Peñas,1,T,Terrestrial landform,include
+Rancho,1,P,Populated place,include
+Mote,1,,,include
+ISla,1,T,Terrestrial landform,include
+Lugar,1,P,Populated place,include
+Costa,1,T,Terrestrial landform,include
+Plantación,1,S,Site / structure,include
+Obrage,1,S,Site / structure,include
+Tierra,1,L,Landscape / region,include
+Rocas,1,T,Terrestrial landform,include
+Caida,1,,,include
+Archipiélago,1,T,Terrestrial landform,include
+Ciudad Colonia,1,P,Populated place,include
+Pueblo Colonia,1,P,Populated place,include
+Murallón de peña,1,T,Terrestrial landform,include
+Ciudades,1,P,Populated place,include
+Ramo,1,S,Site / structure,include
+Colinas,1,T,Terrestrial landform,include
+Torrente,1,H,Water body,include
+Raza,1,,,include
+Villa Fuerte,1,P,Populated place,include

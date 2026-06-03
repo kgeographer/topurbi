@@ -1,0 +1,22 @@
+Hi Stephen,
+
+You ask for more (gazetteers to accession), so maybe now I can approach getting the Alcedo Spanish America dictionary in? I have the data, can shape it however it needs to be shaped. No ocr or anything else involved-it has names, geometry, links to HGIS de las Indias already in WHG, some # of wikidata ids, TEI marked up text entries.
+It would not hurt my feelings if someone on the WHG team wanted to take this in, but I’m willing to get it prepped as required…I have a long connection to it and have promised its owner Carmen Brando this would happen one day. It is CC-by.
+Might be worth a zoom, but I’d have to dive back in and see where I’d gotten to with it first.
+At your service!
+
+Cheers, Karl
+
+
+Oooh, that looks interesting, thanks, Karl. Is the source for that this?
+
+Diccionario geográfico-histórico de las Indias Occidentales ó América:  https://share.google/wEBhDTt2utA6EJb36
+
+Lately I've been customising existing ingestion pipelines for each distinct source, quite a quick process in these coding agent times, as it generally allows us to capture a lot of nuance that tends to get stripped out if we ask people to hand-roll LPF.
+
+I've copied in Palak as she is coordinating our acquisition of new data, but as you say this dataset is ready to roll I can see no reason not to go ahead and at least assess it. Would you mind sending it in whatever format(s) it already exists, please? I imagine the main challenge might be identifying and reconciling the names of containment areas (relations), but let's see. And although it's already OCR'd and structured, I might want to use it as validation and training data for our new OCR/LLM pipeline (which is why the precise PDF edition used is important, if possible to acquire).
+
+Anyway, as you can imagine I have plenty of other things competing for my attention so there's no rush, but I'll be excited to do something with it quite promptly!
+
+Thanks again, and all the best,
+Stephen
